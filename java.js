@@ -1,6 +1,6 @@
 let users = {};
 
-let count = Number(prompt("Введите количество пользователей (от 1 до 10):"));
+let count = +(prompt("Введите количество пользователей (от 1 до 10):"));
 
 for (let i = 1; i <= count; i++) {
   let name = prompt(`Введите имя`);
